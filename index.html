@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joydhriti Choudhury | Academic Homepage</title>
+  <style>([yushundong.github.io](https://yushundong.github.io/))    --text: #222;
+      --muted: #666;
+      --link: #1a5fb4;
+      --border: #e5e5e5;
+      --bg: #ffffff;
+      --soft-bg: #f7f7f7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .site-title {
+      font-weight: 700;
+      font-size: 18px;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 15px;
+    }
+
+    .layout {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 36px 24px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    aside {
+      position: sticky;
+      top: 86px;
+    }
+
+    .profile-card {
+      text-align: left;
+    }
+
+    .profile-card img {
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 0 0 8px;
+      line-height: 1.2;
+    }
+
+    .role {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .contact-list li {
+      margin-bottom: 9px;
+    }
+
+    main h2 {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-top: 0;
+      font-size: 25px;
+    }
+
+    section {
+      margin-bottom: 42px;
+    }
+
+    .highlight {
+      background: var(--soft-bg);
+      border-left: 4px solid var(--link);
+      padding: 14px 18px;
+      margin: 18px 0;
+    }
+
+    .research-list,
+    .news-list,
+    .pub-list,
+    .talk-list {
+      padding-left: 22px;
+    }
+
+    .news-list li,
+    .talk-list li,
+    .pub-list li {
+      margin-bottom: 10px;
+    }
+
+    .pub-title {
+      font-weight: 600;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--soft-bg);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 3px 10px;
+      margin: 4px 4px 4px 0;
+      font-size: 13px;
+      color: #444;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      padding: 24px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 850px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      aside {
+        position: static;
+      }
+
+      .profile-card img {
+        width: 170px;
+        height: 170px;
+      }
+
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="site-title" href="#about">Joydhriti Choudhury</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside>
+      <div class="profile-card">
+        <img src="profile.jpg" alt="Joydhriti Choudhury profile photo" />
+        <h1>Joydhriti Choudhury</h1>
+        <div class="role">
+          Ph.D. Student in Computer Science<br />
+          Florida State University
+        </div>
+        <ul class="contact-list">
+          <li>📍 Tallahassee, FL</li>
+          <li>✉️ <a href="mailto:your_email@fsu.edu">your_email@fsu.edu</a></li>
+          <li>🎓 <a href="#">Google Scholar</a></li>
+          <li>💻 <a href="#">GitHub</a></li>
+          <li>🔗 <a href="#">LinkedIn</a></li>
+          <li>📄 <a href="#">CV</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am a Ph.D. student in the Department of Computer Science at Florida State University. My research interests lie in computer systems, disaggregated memory, RDMA-based systems, key-value stores, distributed systems, and high-performance computing.
+        </p>
+        <p>
+          I am currently working on efficient data structures and indexing mechanisms for disaggregated memory systems, with a focus on improving latency, scalability, and resource efficiency for remote-memory access workloads.
+        </p>
+        <div class="highlight">
+          <strong>Research focus:</strong> Disaggregated memory, RDMA, key-value stores, distributed indexing, and high-performance systems.
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Research Interests</h2>
+        <ul class="research-list">
+          <li>Disaggregated memory systems and remote memory access</li>
+          <li>RDMA-based key-value stores and distributed indexing</li>
+          <li>Hybrid index design for point and range queries</li>
+          <li>Performance characterization of distributed systems</li>
+          <li>GPU parallelization and large-scale machine learning systems</li>
+        </ul>
+        <div>
+          <span class="tag">RDMA</span>
+          <span class="tag">Disaggregated Memory</span>
+          <span class="tag">Key-Value Stores</span>
+          <span class="tag">Distributed Systems</span>
+          <span class="tag">HPC</span>
+        </div>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><strong>May 2026:</strong> Add your latest research update here.</li>
+          <li><strong>April 2026:</strong> Presented research work at the CS student seminar.</li>
+          <li><strong>Spring 2026:</strong> Serving as a teaching assistant for a Computer Science course.</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">Your Paper Title Goes Here.</span><br />
+            Joydhriti Choudhury, Coauthor Name, Advisor Name.<br />
+            <em>Conference or Journal Name</em>, Year.
+            [<a href="#">PDF</a>] [<a href="#">Code</a>] [<a href="#">Slides</a>]
+          </li>
+          <li>
+            <span class="pub-title">Another Research Project or Manuscript Title.</span><br />
+            Joydhriti Choudhury et al.<br />
+            <em>Under submission / In preparation</em>.
+          </li>
+        </ol>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <ul>
+          <li><strong>COP 4530: Data Structures, Algorithms, and Generic Programming</strong> — Teaching Assistant</li>
+          <li>Recitation topics: sorting algorithms, heaps, trees, graphs, and algorithm analysis.</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Awards & Honors</h2>
+        <ul>
+          <li>Best Presentation Award, CS Student Seminar, Florida State University.</li>
+          <li>Add scholarships, travel grants, departmental awards, or other recognitions here.</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:your_email@fsu.edu">your_email@fsu.edu</a><br />
+          Department of Computer Science, Florida State University
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    © 2026 Joydhriti Choudhury. Built with HTML/CSS and hosted on GitHub Pages.
+  </footer>
+</body>
+</html>
